@@ -1,0 +1,7 @@
+// Web IDL code goes here
+
+	
+interface StructArray {
+    void StructArray(int capacity, dynamic example);
+
+};

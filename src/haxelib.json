@@ -1,0 +1,11 @@
+{
+	"name" : "hl-llds",
+	"url" : "https://github.com/onehundredfeet/hl-llds",
+	"license" : "MIT",
+	"contributors" : ["onehundredfeet"],
+	"description" : "Low Level Data Structures for Haxe HL/JS.",
+	"version" : "0.1.0",
+	"releasenote" : "",
+	"classPath": "src/",
+	"dependencies": { "hl-idl" : ""}
+}
