@@ -2,6 +2,10 @@
 
 THIS PROJECT IS IN PROGRESS - DO NOT CLONE, IT DOES NOT WORK
 
+This project is intended to provide high performance low level data structures in Haxe. Right now, Hashlink and HL/C are the only targets, but it's possible to add cpp or other compiled languages as targets.
+
+These structures are intended to promote properties like cache friendly itereration and minimal allocations for realtime applications.
+
 
 ## Build and Install
 ##### Note: Most of the following steps are common on windows, linux and mac. The only difference is in the build & install step.
