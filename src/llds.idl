@@ -1,7 +1,11 @@
 // Web IDL code goes here
 
-	
-interface StructArray {
-    void StructArray(int capacity, dynamic example);
 
+
+
+
+interface RawStructArray {
+    void RawStructArray(int capacity, dynamic example);
+    
+    bytes GetPointer(int idx);
 };

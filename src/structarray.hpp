@@ -4,13 +4,21 @@
 #pragma once
 #include <hl.h>
 
-class StructArray
+class RawStructArray
 {
 private:
     /* data */
+    int _capacity;
+    hl_type *_type;
+    int _typeSize;
+
+    unsigned char *_bytes;
+
 public:
-    StructArray(int capacity, vdynamic *example );
-    ~StructArray();
+    RawStructArray(int capacity, vdynamic *example );
+    ~RawStructArray();
+    
+    void *GetPointer(int idx);
 };
 
 

@@ -2,5 +2,5 @@
 -lib hvector
 --class-path tests
 --class-path src
--hl bin/tests.hl
+-hl bin/tests.c
 --main Tests
