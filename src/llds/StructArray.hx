@@ -1,5 +1,7 @@
 package llds;
 
+
+
 @:generic
 class StructArray<T> {
 	var _array:llds.Native.RawStructArray;
@@ -15,9 +17,14 @@ class StructArray<T> {
 		return cast _array.GetPointer(key);
 	}
 
+	public inline function bytes() : hl.Bytes {
+		return _array.GetPointer(0);
+	}
 	
 	public inline function get2(key:Int) : T{
 		var x = _array.GetPointer(key);
 		return cast untyped x;
 	}
+
+
 }
